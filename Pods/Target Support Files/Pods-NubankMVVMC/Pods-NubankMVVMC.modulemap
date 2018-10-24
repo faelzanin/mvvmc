@@ -1,0 +1,6 @@
+framework module Pods_NubankMVVMC {
+  umbrella header "Pods-NubankMVVMC-umbrella.h"
+
+  export *
+  module * { export * }
+}

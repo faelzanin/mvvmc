@@ -4,10 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>NubankMVVMC.xcscheme</key>
+		<key>NubankMVVMC.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>31CE5FB5217F86CE00247C03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>31CE5FC9217F86D100247C03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>31CE5FD4217F86D100247C03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

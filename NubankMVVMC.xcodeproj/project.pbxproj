@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31CE5FCF217F86D100247C03 /* NubankMVVMCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5FCE217F86D100247C03 /* NubankMVVMCTests.swift */; };
 		31CE5FDA217F86D100247C03 /* NubankMVVMCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5FD9217F86D100247C03 /* NubankMVVMCUITests.swift */; };
 		31CE5FFD217F878400247C03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5FEB217F878300247C03 /* AppDelegate.swift */; };
 		31CE5FFE217F878400247C03 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE5FED217F878300247C03 /* Environment.swift */; };
@@ -20,7 +19,6 @@
 		31CE6005217F878400247C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31CE5FF6217F878400247C03 /* Assets.xcassets */; };
 		31CE6006217F878400247C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CE5FF7217F878400247C03 /* LaunchScreen.storyboard */; };
 		31CE6007217F878400247C03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31CE5FF9217F878400247C03 /* Main.storyboard */; };
-		31CE6008217F878400247C03 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31CE5FFB217F878400247C03 /* Info.plist */; };
 		31CE603D217F89A700247C03 /* HomeRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE6031217F89A700247C03 /* HomeRequests.swift */; };
 		31CE603E217F89A700247C03 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CE6033217F89A700247C03 /* HomeModel.swift */; };
 		31CE603F217F89A700247C03 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31CE6035217F89A700247C03 /* HomeViewController.xib */; };
@@ -92,6 +90,10 @@
 		DD53C403217FBFF400236795 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD53C3CC217FBFF400236795 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
 		DD53C404217FBFF400236795 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD53C3CD217FBFF400236795 /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
 		DD53C405217FBFF400236795 /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD53C3CE217FBFF400236795 /* NVActivityIndicatorAnimationOrbit.swift */; };
+		DDCBAF9D21A7149500E2D628 /* UIImageView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCBAF9C21A7149500E2D628 /* UIImageView+Utils.swift */; };
+		DDCBAFA021A71AF000E2D628 /* Timeout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCBAF9F21A71AF000E2D628 /* Timeout.swift */; };
+		DDCBAFA521A71BDF00E2D628 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCBAFA421A71BDF00E2D628 /* HomeViewModelTests.swift */; };
+		DDCBAFA721A71BFA00E2D628 /* HomeRequestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCBAFA621A71BFA00E2D628 /* HomeRequestsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,7 +116,6 @@
 /* Begin PBXFileReference section */
 		31CE5FB6217F86CE00247C03 /* NubankMVVMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NubankMVVMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31CE5FCA217F86D100247C03 /* NubankMVVMCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubankMVVMCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31CE5FCE217F86D100247C03 /* NubankMVVMCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NubankMVVMCTests.swift; sourceTree = "<group>"; };
 		31CE5FD0217F86D100247C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31CE5FD5217F86D100247C03 /* NubankMVVMCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NubankMVVMCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31CE5FD9217F86D100247C03 /* NubankMVVMCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NubankMVVMCUITests.swift; sourceTree = "<group>"; };
@@ -203,6 +204,10 @@
 		DD53C3CC217FBFF400236795 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
 		DD53C3CD217FBFF400236795 /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
 		DD53C3CE217FBFF400236795 /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		DDCBAF9C21A7149500E2D628 /* UIImageView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Utils.swift"; sourceTree = "<group>"; };
+		DDCBAF9F21A71AF000E2D628 /* Timeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeout.swift; sourceTree = "<group>"; };
+		DDCBAFA421A71BDF00E2D628 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
+		DDCBAFA621A71BFA00E2D628 /* HomeRequestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRequestsTests.swift; sourceTree = "<group>"; };
 		E9E2685337F4862EFDFF791D /* Pods-NubankMVVMC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NubankMVVMC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NubankMVVMC/Pods-NubankMVVMC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -270,7 +275,8 @@
 		31CE5FCD217F86D100247C03 /* NubankMVVMCTests */ = {
 			isa = PBXGroup;
 			children = (
-				31CE5FCE217F86D100247C03 /* NubankMVVMCTests.swift */,
+				DDCBAFA121A71B9E00E2D628 /* Home */,
+				DDCBAF9E21A71AE200E2D628 /* Extensions */,
 				31CE5FD0217F86D100247C03 /* Info.plist */,
 			);
 			path = NubankMVVMCTests;
@@ -279,7 +285,7 @@
 		31CE5FD8217F86D100247C03 /* NubankMVVMCUITests */ = {
 			isa = PBXGroup;
 			children = (
-				31CE5FD9217F86D100247C03 /* NubankMVVMCUITests.swift */,
+				DDCBAFA821A731E100E2D628 /* Home */,
 				31CE5FDB217F86D100247C03 /* Info.plist */,
 			);
 			path = NubankMVVMCUITests;
@@ -465,6 +471,7 @@
 			isa = PBXGroup;
 			children = (
 				DD53C392217FBF4600236795 /* UIView+Utils.swift */,
+				DDCBAF9C21A7149500E2D628 /* UIImageView+Utils.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -554,6 +561,47 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		DDCBAF9E21A71AE200E2D628 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DDCBAF9F21A71AF000E2D628 /* Timeout.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DDCBAFA121A71B9E00E2D628 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DDCBAFA321A71BD000E2D628 /* ViewModel */,
+				DDCBAFA221A71BCA00E2D628 /* Networking */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DDCBAFA221A71BCA00E2D628 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				DDCBAFA621A71BFA00E2D628 /* HomeRequestsTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		DDCBAFA321A71BD000E2D628 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDCBAFA421A71BDF00E2D628 /* HomeViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDCBAFA821A731E100E2D628 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				31CE5FD9217F86D100247C03 /* NubankMVVMCUITests.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -623,13 +671,16 @@
 				TargetAttributes = {
 					31CE5FB5217F86CE00247C03 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 					31CE5FC9217F86D100247C03 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 31CE5FB5217F86CE00247C03;
 					};
 					31CE5FD4217F86D100247C03 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 31CE5FB5217F86CE00247C03;
 					};
 				};
@@ -659,7 +710,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31CE6008217F878400247C03 /* Info.plist in Resources */,
 				31CE6007217F878400247C03 /* Main.storyboard in Resources */,
 				31CE603F217F89A700247C03 /* HomeViewController.xib in Resources */,
 				DD53C3DD217FBFF400236795 /* Images.xcassets in Resources */,
@@ -756,6 +806,7 @@
 				DD53C3DB217FBFF400236795 /* WindowRootViewController.swift in Sources */,
 				DD53C3FB217FBFF400236795 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
 				DD53C3D7217FBFF400236795 /* PKHUDTextView.swift in Sources */,
+				DDCBAF9D21A7149500E2D628 /* UIImageView+Utils.swift in Sources */,
 				DD53C3F9217FBFF400236795 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
 				31CE6000217F878400247C03 /* ErrorHandler.swift in Sources */,
 				31CE6001217F878400247C03 /* RequestStates.swift in Sources */,
@@ -793,7 +844,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31CE5FCF217F86D100247C03 /* NubankMVVMCTests.swift in Sources */,
+				DDCBAFA021A71AF000E2D628 /* Timeout.swift in Sources */,
+				DDCBAFA721A71BFA00E2D628 /* HomeRequestsTests.swift in Sources */,
+				DDCBAFA521A71BDF00E2D628 /* HomeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -969,7 +1022,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.NubankMVVMC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -989,7 +1042,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.NubankMVVMC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1007,9 +1060,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.Luis.NubankMVVMCTests;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.NubankMVVMCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NubankMVVMC.app/NubankMVVMC";
 			};
@@ -1028,9 +1081,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.Luis.NubankMVVMCTests;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.NubankMVVMCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NubankMVVMC.app/NubankMVVMC";
 			};
@@ -1048,9 +1101,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.Luis.NubankMVVMCUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.NubankMVVMCUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = NubankMVVMC;
 			};
@@ -1068,9 +1121,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.Luis.NubankMVVMCUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.NubankMVVMCUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = NubankMVVMC;
 			};

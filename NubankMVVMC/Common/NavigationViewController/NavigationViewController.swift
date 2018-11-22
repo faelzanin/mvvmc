@@ -10,6 +10,8 @@ import UIKit
 
 class NavigationViewController: UINavigationController, UINavigationBarDelegate {
     
+    var statusBarStyle: UIStatusBarStyle = .default
+    
     // MARK: Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,14 +25,14 @@ class NavigationViewController: UINavigationController, UINavigationBarDelegate 
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .default
+        return statusBarStyle
     }
     
      // MARK: Methods
     func defaultNavigationStyle() {
-        navigationBar.barTintColor              = .blue
+        navigationBar.barTintColor              = .white
         navigationBar.tintColor                 = .white
-        navigationBar.titleTextAttributes       = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        navigationBar.titleTextAttributes       = [NSAttributedString.Key.foregroundColor: UIColor.white]
         navigationBar.isTranslucent             = false
         navigationBar.shadowImage               = UIImage()
     }

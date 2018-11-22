@@ -29,7 +29,15 @@ class HomeCoordinator {
         viewController          = HomeViewController(viewModel: viewModel!)
         viewController?.hidesBottomBarWhenPushed  = true
         navigationController        = NavigationViewController(rootViewController: viewController!)
+        navigationController?.defaultTransparentStyle()
+        navigationController?.statusBarStyle = .lightContent
         window.rootViewController   = navigationController
+    }
+    
+    func stop() {
+        model           = nil
+        viewModel       = nil
+        viewController  = nil
     }
 }
 

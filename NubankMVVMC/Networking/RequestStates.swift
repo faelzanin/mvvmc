@@ -10,7 +10,7 @@ import Foundation
 
 enum RequestStates<T> {
     case loading
-    case errored(error: ErrorHandler.ErrorResponse )
+    case errored(error: ErrorHandler.ErrorResponse)
     case load(data: T)
     case empty
 }

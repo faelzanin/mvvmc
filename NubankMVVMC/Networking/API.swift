@@ -13,7 +13,8 @@ class API {
     // MARK: Enums
     enum Environment: String {
         case production       =  "https://api.chucknorris.io"
-
+        case mock             =  "https://apiary.io"
+        
         func getValue() -> String {
             return self.rawValue
         }

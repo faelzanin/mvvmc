@@ -91,7 +91,7 @@ class Requester {
     func sessionConfigComposer() -> URLSessionConfiguration {
         let config                       = URLSessionConfiguration.default
         
-        // Changing to 60.0 for Boletos tests. Return to 30 when the backend is updated
+        // timeout interval of 60s for request.
         config.timeoutIntervalForRequest = 60.0
         
         if #available(iOS 11.0, *) {

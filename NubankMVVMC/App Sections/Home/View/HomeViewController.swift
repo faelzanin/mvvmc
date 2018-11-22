@@ -61,5 +61,6 @@ class HomeViewController: UIViewController {
     // MARK: Private methods
     private func fillData(joke: Joke?) {
         jokeLabel.text = joke?.value ?? ""
+        jokeImageView.downloaded(from: joke?.icon_url ?? "")
     }
 }

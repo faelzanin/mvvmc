@@ -4,3 +4,4 @@ rvm:
  - jruby
 os: osx
 osx_image: xcode11
+before_install: gem install cocoapods

@@ -4,6 +4,8 @@ rvm:
  - jruby
 os: osx
 osx_image: xcode11
-before_install: gem install cocoapods
-- pod install --project-directory=NubankMVVMC
+before_install:
+ - gem install cocoapods
+ - pod install --project-directory=NubankMVVMC
+
 

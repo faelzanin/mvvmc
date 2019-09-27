@@ -5,8 +5,9 @@ rvm:
 os: osx
 osx_image: xcode11
 before_install:
+ - ls
  - gem install cocoapods
- - pod install
-podfile: Podfile
+# - pod install
+#podfile: Podfile
 
 

@@ -1,0 +1,13 @@
+language: swift
+rvm:
+ - 2.2
+# - jruby
+os: osx
+osx_image: xcode11
+before_install:
+ - gem install cocoapods
+# - pod install
+#podfile: Podfile
+script:
+    - pod install
+

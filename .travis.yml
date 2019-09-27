@@ -1,6 +1,6 @@
 language: swift
 rvm:
- - 1.9.3
+ - 2.2
 # - jruby
 os: osx
 osx_image: xcode11
